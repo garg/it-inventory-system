@@ -1,0 +1,8 @@
+<h1>Editing Manufacturer</h1>
+
+<% form_for(@manufacturer) do |f|  %>
+  <%= render :partial => "form", :locals => { :f => f } %>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>

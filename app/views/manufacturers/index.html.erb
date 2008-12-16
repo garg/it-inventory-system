@@ -1,0 +1,23 @@
+<h1>Listing Manufacturers</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Delete</th>
+    <th>Edit</th>
+  </tr>
+
+<% for manufacturer in @manufacturers %>
+    <tr>
+      <td><%=h manufacturer.name %></td>
+      <td><%=h manufacturer.description %></td>
+      <td><%= link_to 'X', manufacturer, :confirm => 'Sure?', :method=>:delete %></td>
+      <td><%= link_to 'X', edit_manufacturer_path(manufacturer) %></td>
+    </td>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New manufacturer', new_manufacturer_path %>
