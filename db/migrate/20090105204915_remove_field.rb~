@@ -1,0 +1,9 @@
+class RemoveField < ActiveRecord::Migration
+  def self.up
+    remove_column :item, :field_id
+  end
+
+  def self.down
+    add_column :item, :field_id, :integer
+  end
+end

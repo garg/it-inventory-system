@@ -1,0 +1,24 @@
+<h1>Model Names</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Manufacturer</th>
+    <th>Description</th>
+    <th>Delete</th>
+    <th>Edit</th>
+  </tr>
+
+
+<% for model in @model_names %>
+  <tr>
+    <td><%= model.name %></td>
+    <td><%= model.manufacturer.name %></td>
+    <td><%= model.description %></td>
+    <td><%= link_to 'X', model, :confirm => 'Sure?', :method => :delete %></td>
+    <td><%= link_to 'X', edit_model_name_path(model) %></td>
+  </tr>
+<% end %>
+</table>
+
+<p><%= link_to "New Model Name", new_model_name_path %></p>

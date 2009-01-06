@@ -1,0 +1,13 @@
+<p>
+  <b>Number:</b>
+  <%=h @room.number %>
+</p>
+
+<p>
+  <b>Contact:</b>
+  <%=h @room.contact_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_room_path(@room) %> |
+<%= link_to 'Back', rooms_path %>

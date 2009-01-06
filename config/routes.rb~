@@ -1,10 +1,4 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :items
-
-  map.resources :rooms
-
-  map.resources :contacts
-
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
@@ -45,7 +39,6 @@ ActionController::Routing::Routes.draw do |map|
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing the them or commenting them out if you're using named routes and resources.
   map.resources :manufacturers
-  map.resources :model_names  
-  map.connect ':controller/:action/:id'
+  map.resources :model_names  map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
 end

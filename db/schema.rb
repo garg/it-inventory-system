@@ -9,11 +9,57 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20081210201805) do
+ActiveRecord::Schema.define(:version => 20090106204640) do
+
+  create_table "contacts", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "phone"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "departments", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "items", :force => true do |t|
+    t.integer  "model_id"
+    t.integer  "room_id"
+    t.integer  "unique"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "manufacturer_id"
+  end
 
   create_table "manufacturers", :force => true do |t|
     t.string   "name"
     t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "model_names", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "manufacturer_id"
+  end
+
+  create_table "rooms", :force => true do |t|
+    t.string   "number"
+    t.integer  "contact_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.integer  "department_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

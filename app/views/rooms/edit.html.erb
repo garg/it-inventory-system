@@ -1,0 +1,20 @@
+<h1>Editing room</h1>
+
+<% form_for(@room) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :number %><br />
+    <%= f.text_field :number %>
+  </p>
+  <p>
+    <%= f.label :contact_id %><br />
+    <%= f.text_field :contact_id %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @room %> |
+<%= link_to 'Back', rooms_path %>

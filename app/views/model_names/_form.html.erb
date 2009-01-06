@@ -1,0 +1,3 @@
+
+  <p>Manufacturer: <%= f.select(:manufacturer_id, Manufacturer.find(:all).collect {|u| [u.name, u.id]}, :prompt => 'Select') %> </p>
+  <p>Model Name: <%= f.text_field(:name) %>

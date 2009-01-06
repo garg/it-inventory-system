@@ -1,0 +1,2 @@
+module ModelNamesHelper
+end

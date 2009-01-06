@@ -5,6 +5,9 @@ class Manufacturer < ActiveRecord::Base
 
   has_many :model_names
   
+    def name_with_initial
+           "holy crap"
+         end
   
   
 end

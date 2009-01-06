@@ -1,0 +1,35 @@
+<h1>New item</h1>
+
+<% form_for(@item) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+
+    <%= f.label :manufacturer_id %><br />
+    <%= f.select(:manufacturer_id, Manufacturer.find(:all).collect {|u| [u.name, u.id]}, :prompt => 'Select') %>
+  
+  </p>
+  <p>
+    <%= f.label :model_id %><br />
+    <%= f.select(:model_id, ModelName.find(:all).collect {|u| [u.name, u.id]}, :prompt => 'Select') %>
+    
+    
+    <%= observe_field(:item_manufacturer_id,
+        :frequency => 1,
+        :function => "alert('Element changed')") %>
+  </p>
+  <p>
+    <%= f.label :room_id %><br />
+    <%= f.select(:room_id, Room.find(:all).collect {|u| [u.number, u.id]}, :prompt => 'Select') %>
+  </p>
+  <p>
+    <%= f.label :unique %><br />
+    <%= f.text_field :unique %>
+  </p>
+
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', items_path %>
