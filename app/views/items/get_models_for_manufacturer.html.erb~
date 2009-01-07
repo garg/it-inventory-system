@@ -1,0 +1,8 @@
+<% render :layout => false  %>
+
+
+<% for model_name in @model_names %>
+
+    <%=h model_name.name %>
+
+<% end %>

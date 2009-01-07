@@ -10,13 +10,20 @@
   
   </p>
   <p>
-    <%= f.label :model_id %><br />
-    <%= f.select(:model_id, ModelName.find(:all).collect {|u| [u.name, u.id]}, :prompt => 'Select') %>
+ 
+  <div id="modelname_container">
+	 <select id="model_name_id" name="model_name_id" disabled="disabled">
+	     <option value="">Select Model</option>
+         </select>
+    </div>
+
     
     
     <%= observe_field(:item_manufacturer_id,
         :frequency => 1,
-        :function => "alert('Element changed')") %>
+        :update => 'modelname_container',
+        :url => { :action => :get_models_for_manufacturer },
+        :with => "'manufacturer_id='+value") %>
   </p>
   <p>
     <%= f.label :room_id %><br />
