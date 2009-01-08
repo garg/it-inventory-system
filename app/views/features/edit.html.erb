@@ -1,0 +1,20 @@
+<h1>Editing feature</h1>
+
+<% form_for(@feature) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :item_id %><br />
+    <%= f.text_field :item_id %>
+  </p>
+  <p>
+    <%= f.label :information %><br />
+    <%= f.text_field :information %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @feature %> |
+<%= link_to 'Back', features_path %>

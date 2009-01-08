@@ -1,0 +1,23 @@
+<h1>New feature</h1>
+
+<% form_for(@feature) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :item_id %><br />
+
+    <p><%= f.select(:item_id, Item.find(:all).collect {|u| [u.id, u.id]}, :prompt => 'Select') %> </p>
+  </p>
+  
+  <p>Feature Type: <%= f.select(:feature_type, FeatureType.find(:all).collect {|u| [u.name, u.id]}, :prompt => 'Select') %> </p>
+  
+  <p>
+    <%= f.label :information %><br />
+    <%= f.text_field :information %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', features_path %>

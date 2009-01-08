@@ -12,7 +12,7 @@
 <% for item in @items %>
   <tr>
     <td><%=h Manufacturer.find(item.manufacturer_id).name %></td>
-    <td><%=h ModelName.find(item.model_id).name %></td>
+    <td><%=h ModelNames.find(item.model_id).name %></td>
     <td><%=h Room.find(item.room_id).number %></td>
     <td><%=h item.unique %></td>
     <td><%= link_to 'Show', item %></td>

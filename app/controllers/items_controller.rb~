@@ -85,9 +85,9 @@ class ItemsController < ApplicationController
   
   def get_models_for_manufacturer 
     @model_names = ModelName.find_all_by_manufacturer_id(params["manufacturer_id"])
-    #@items = Item.find(:all) 
+    
     ####@model_names = ModelName.find(:all, :conditions => {:manufacturer_id => params["manufacturer_id"]})
-   #@model_names = ModelName.find(:all)
+
     @html = "<select id='model_name_id' name='model[manufacturer_id]'>"
     @html += "<option value="">Select Model</option>"
     @model_names.each do |@model_name|

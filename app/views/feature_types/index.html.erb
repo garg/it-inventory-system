@@ -1,0 +1,22 @@
+<h1>Listing feature_types</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+
+<% for feature_type in @feature_types %>
+  <tr>
+    <td><%=h feature_type.name %></td>
+    <td><%=h feature_type.description %></td>
+    <td><%= link_to 'Show', feature_type %></td>
+    <td><%= link_to 'Edit', edit_feature_type_path(feature_type) %></td>
+    <td><%= link_to 'Destroy', feature_type, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New feature_type', new_feature_type_path %>

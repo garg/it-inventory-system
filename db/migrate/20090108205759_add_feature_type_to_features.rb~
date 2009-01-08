@@ -1,0 +1,9 @@
+class AddFeatureTypeToFeatures < ActiveRecord::Migration
+  def self.up
+    add_column :feature, :feature_type, :integer
+  end
+
+  def self.down
+    drop_column :feature, :feature_type
+  end
+end

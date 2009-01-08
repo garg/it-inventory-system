@@ -1,4 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :features
+
+  map.resources :feature_types
+
   map.resources :items
 
   map.resources :rooms

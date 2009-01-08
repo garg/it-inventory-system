@@ -6,7 +6,7 @@
 
 <p>
   <b>Model:</b>
-  <%=h @item.manufacturer.model_names %>
+  <%=h @item.manufacturer.model_name %>
 </p>
 
 <p>

@@ -5,6 +5,6 @@ class Manufacturer < ActiveRecord::Base
 
   has_many :model_names
   
-  
+  has_many :item
   
 end
