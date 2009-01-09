@@ -3,5 +3,4 @@ class ModelName < ActiveRecord::Base
   validates_uniqueness_of :name
 
   belongs_to :manufacturer
-  has_many :items
 end

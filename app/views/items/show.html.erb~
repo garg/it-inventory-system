@@ -6,12 +6,12 @@
 
 <p>
   <b>Model:</b>
-  <%=h @item.manufacturer.model_name %>
+  <%=h @item.model_name.name %>
 </p>
 
 <p>
   <b>Room:</b>
-  <%=h @item.room_id %>
+  <%=h @item.room.number %>
 </p>
 
 <p>

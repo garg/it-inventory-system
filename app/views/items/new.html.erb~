@@ -10,8 +10,6 @@
   
   </p>
   <p>
-    <%= f.label :model_id %><br />
-    <%= f.select(:model_id, ModelName.find(:all).collect {|u| [u.name, u.id]}, :prompt => 'Select') %>
  
   <div id="modelname_container">
 	 <select id="model_name_id" name="model_name_id" disabled="disabled">

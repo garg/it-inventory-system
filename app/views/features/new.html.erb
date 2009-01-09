@@ -9,7 +9,7 @@
     <p><%= f.select(:item_id, Item.find(:all).collect {|u| [u.id, u.id]}, :prompt => 'Select') %> </p>
   </p>
   
-  <p>Feature Type: <%= f.select(:feature_type, FeatureType.find(:all).collect {|u| [u.name, u.id]}, :prompt => 'Select') %> </p>
+  <p>Feature Type: <%= f.select(:feature_type, FeatureType.find(:all).collect {|u| [u.name, u.name]}, :prompt => 'Select') %> </p>
   
   <p>
     <%= f.label :information %><br />

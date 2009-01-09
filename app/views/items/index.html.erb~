@@ -11,9 +11,9 @@
 
 <% for item in @items %>
   <tr>
-    <td><%=h Manufacturer.find(item.manufacturer_id).name %></td>
-    <td><%=h ModelNames.find(item.model_id).name %></td>
-    <td><%=h Room.find(item.room_id).number %></td>
+    <td><%=h item.manufacturer.name %></td>
+    <td><%=h item.model_name.name %></td>
+    <td><%=h item.room.number %></td>
     <td><%=h item.unique %></td>
     <td><%= link_to 'Show', item %></td>
     <td><%= link_to 'Edit', edit_item_path(item) %></td>

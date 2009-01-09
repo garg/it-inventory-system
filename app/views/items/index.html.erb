@@ -5,16 +5,16 @@
     <th>Manufacturer</th>
     <th>Model</th>
     <th>Room</th>
-    <th>Unique</th>
+    <th>barcode</th>
 
   </tr>
 
 <% for item in @items %>
   <tr>
-    <td><%=h Manufacturer.find(item.manufacturer_id).name %></td>
-    <td><%=h ModelName.find(item.model_id).name %></td>
-    <td><%=h Room.find(item.room_id).number %></td>
-    <td><%=h item.unique %></td>
+    <td><%=h item.manufacturer.name %></td>
+    <td><%=h item.model_name.name %></td>
+    <td><%=h item.room.number %></td>
+    <td><%=h item.barcode %></td>
     <td><%= link_to 'Show', item %></td>
     <td><%= link_to 'Edit', edit_item_path(item) %></td>
     <td><%= link_to 'Destroy', item, :confirm => 'Are you sure?', :method => :delete %></td>

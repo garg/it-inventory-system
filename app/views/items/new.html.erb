@@ -30,8 +30,8 @@
     <%= f.select(:room_id, Room.find(:all).collect {|u| [u.number, u.id]}, :prompt => 'Select') %>
   </p>
   <p>
-    <%= f.label :unique %><br />
-    <%= f.text_field :unique %>
+    <%= f.label :barcode %><br />
+    <%= f.text_field :barcode %>
   </p>
 
   <p>

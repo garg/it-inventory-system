@@ -3,9 +3,6 @@
   <%=h @feature.item_id %>
 </p>
 
-<p>Type:</b>
-  <%=h @feature.feature_type %>
-</p>
 <p>
   <b>Information:</b>
   <%=h @feature.information %>

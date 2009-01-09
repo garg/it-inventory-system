@@ -12,8 +12,8 @@
     <%= f.text_field :room_id %>
   </p>
   <p>
-    <%= f.label :barcode %><br />
-    <%= f.text_field :barcode %>
+    <%= f.label :unique %><br />
+    <%= f.text_field :unique %>
   </p>
   <p>
     <%= f.label :field_id %><br />
