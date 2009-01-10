@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Inventory Tracker <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'style', :media => "all" %>
+  <%= javascript_include_tag 'prototype' %>
+</head>
+<body id="inventory-tracker">
+  <div id="banner">
+  </div>
+  
+  <div id="content">
+    <div id="side-column">
+      <a href="http://">Home</a><br />
+      <a href="http://">Manufacturers</a><br />
+      <a href="http://">Items</a><br />
+      <a href="http://">Help</a><br />
+    </div>
+    <div id="main">
+      <p style="color: green"><%= flash[:notice] %></p>
+      <%= yield  %>
+    </div>
+  </div>
+  <div id="footer">
+    <p> I AM THE FOOTER</p>
+  </div>
+</body>
+</html>

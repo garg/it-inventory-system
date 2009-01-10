@@ -30438,3 +30438,22 @@ Rendering model_names/index
   [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
   [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
 Completed in 0.01820 (54 reqs/sec) | Rendering: 0.01055 (57%) | DB: 0.00147 (8%) | 200 OK [http://localhost/model_names/]
+
+
+Processing ItemsController#new (for 127.0.0.1 at 2009-01-10 11:07:02) [GET]
+Rendering template within layouts/application
+Rendering items/new
+  [4;36;1mManufacturer Load (1.6ms)[0m   [0;1mSELECT * FROM "manufacturers" [0m
+  [4;35;1mRoom Load (0.8ms)[0m   [0mSELECT * FROM "rooms" [0m
+Completed in 90ms (View: 55, DB: 2) | 200 OK [http://localhost/items/new]
+
+
+Processing ModelNamesController#index (for 127.0.0.1 at 2009-01-10 11:07:20) [GET]
+  [4;36;1mModelName Load (1.9ms)[0m   [0;1mSELECT * FROM "model_names" [0m
+Rendering template within layouts/application
+Rendering model_names/index
+  [4;35;1mManufacturer Load (0.8ms)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mManufacturer Load (0.6ms)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+Completed in 62ms (View: 39, DB: 2) | 200 OK [http://localhost/model_names]

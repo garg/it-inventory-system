@@ -1,0 +1,44 @@
+/* Style for main page */
+
+#banner {
+  background: #9c9;
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid;
+  font: small-caps 40px/40px "Times New Roman", serif;
+  color: #282;
+  text-align: center;
+}
+
+#banner img {
+  float: left;
+}
+
+#content {
+  background: #141;
+}
+
+#main {
+  margin-left: 13em;
+  padding-top: 4ex;
+  padding-left: 2em;
+  background: white;
+}
+
+#side {
+  float: left;
+  padding-top: 1em;
+  padding-left: 1em;
+  width: 12em;
+  background: #141;
+}
+
+#side a{
+  color: #bfb;
+  font-size: small;
+}
+
+h1 {
+  font: 150% sans-serif;
+  color: #226;
+  border-bottom: 3px dotted #77d;
+}
