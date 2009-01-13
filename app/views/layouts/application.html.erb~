@@ -19,9 +19,6 @@
       <%= link_to_unless_current "Features", features_path %><br />
       <%= link_to_unless_current "Feature Types", feature_types_path %><br />
       <%= link_to_unless_current "Rooms", rooms_path %><br />
-      <%= link_to_unless_current "Contacts", contacts_path %><br />
-      <%= link_to_unless_current "Manufacturers", manufacturers_path %><br />
-      <%= link_to_unless_current "Model Names", model_names_path %><br />
     </div>
     <div id="main">
       <p style="color: green"><%= flash[:notice] %></p>

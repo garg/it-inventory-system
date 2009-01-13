@@ -1,0 +1,101 @@
+(in /home/khurrum/Rails/it-inventory-system)
+                   features GET    /features                        {:action=>"index", :controller=>"features"}
+         formatted_features GET    /features.:format                {:action=>"index", :controller=>"features"}
+                            POST   /features                        {:action=>"create", :controller=>"features"}
+                            POST   /features.:format                {:action=>"create", :controller=>"features"}
+                new_feature GET    /features/new                    {:action=>"new", :controller=>"features"}
+      formatted_new_feature GET    /features/new.:format            {:action=>"new", :controller=>"features"}
+               edit_feature GET    /features/:id/edit               {:action=>"edit", :controller=>"features"}
+     formatted_edit_feature GET    /features/:id/edit.:format       {:action=>"edit", :controller=>"features"}
+                    feature GET    /features/:id                    {:action=>"show", :controller=>"features"}
+          formatted_feature GET    /features/:id.:format            {:action=>"show", :controller=>"features"}
+                            PUT    /features/:id                    {:action=>"update", :controller=>"features"}
+                            PUT    /features/:id.:format            {:action=>"update", :controller=>"features"}
+                            DELETE /features/:id                    {:action=>"destroy", :controller=>"features"}
+                            DELETE /features/:id.:format            {:action=>"destroy", :controller=>"features"}
+              feature_types GET    /feature_types                   {:action=>"index", :controller=>"feature_types"}
+    formatted_feature_types GET    /feature_types.:format           {:action=>"index", :controller=>"feature_types"}
+                            POST   /feature_types                   {:action=>"create", :controller=>"feature_types"}
+                            POST   /feature_types.:format           {:action=>"create", :controller=>"feature_types"}
+           new_feature_type GET    /feature_types/new               {:action=>"new", :controller=>"feature_types"}
+ formatted_new_feature_type GET    /feature_types/new.:format       {:action=>"new", :controller=>"feature_types"}
+          edit_feature_type GET    /feature_types/:id/edit          {:action=>"edit", :controller=>"feature_types"}
+formatted_edit_feature_type GET    /feature_types/:id/edit.:format  {:action=>"edit", :controller=>"feature_types"}
+               feature_type GET    /feature_types/:id               {:action=>"show", :controller=>"feature_types"}
+     formatted_feature_type GET    /feature_types/:id.:format       {:action=>"show", :controller=>"feature_types"}
+                            PUT    /feature_types/:id               {:action=>"update", :controller=>"feature_types"}
+                            PUT    /feature_types/:id.:format       {:action=>"update", :controller=>"feature_types"}
+                            DELETE /feature_types/:id               {:action=>"destroy", :controller=>"feature_types"}
+                            DELETE /feature_types/:id.:format       {:action=>"destroy", :controller=>"feature_types"}
+                      items GET    /items                           {:action=>"index", :controller=>"items"}
+            formatted_items GET    /items.:format                   {:action=>"index", :controller=>"items"}
+                            POST   /items                           {:action=>"create", :controller=>"items"}
+                            POST   /items.:format                   {:action=>"create", :controller=>"items"}
+                   new_item GET    /items/new                       {:action=>"new", :controller=>"items"}
+         formatted_new_item GET    /items/new.:format               {:action=>"new", :controller=>"items"}
+                  edit_item GET    /items/:id/edit                  {:action=>"edit", :controller=>"items"}
+        formatted_edit_item GET    /items/:id/edit.:format          {:action=>"edit", :controller=>"items"}
+                       item GET    /items/:id                       {:action=>"show", :controller=>"items"}
+             formatted_item GET    /items/:id.:format               {:action=>"show", :controller=>"items"}
+                            PUT    /items/:id                       {:action=>"update", :controller=>"items"}
+                            PUT    /items/:id.:format               {:action=>"update", :controller=>"items"}
+                            DELETE /items/:id                       {:action=>"destroy", :controller=>"items"}
+                            DELETE /items/:id.:format               {:action=>"destroy", :controller=>"items"}
+                      rooms GET    /rooms                           {:action=>"index", :controller=>"rooms"}
+            formatted_rooms GET    /rooms.:format                   {:action=>"index", :controller=>"rooms"}
+                            POST   /rooms                           {:action=>"create", :controller=>"rooms"}
+                            POST   /rooms.:format                   {:action=>"create", :controller=>"rooms"}
+                   new_room GET    /rooms/new                       {:action=>"new", :controller=>"rooms"}
+         formatted_new_room GET    /rooms/new.:format               {:action=>"new", :controller=>"rooms"}
+                  edit_room GET    /rooms/:id/edit                  {:action=>"edit", :controller=>"rooms"}
+        formatted_edit_room GET    /rooms/:id/edit.:format          {:action=>"edit", :controller=>"rooms"}
+                       room GET    /rooms/:id                       {:action=>"show", :controller=>"rooms"}
+             formatted_room GET    /rooms/:id.:format               {:action=>"show", :controller=>"rooms"}
+                            PUT    /rooms/:id                       {:action=>"update", :controller=>"rooms"}
+                            PUT    /rooms/:id.:format               {:action=>"update", :controller=>"rooms"}
+                            DELETE /rooms/:id                       {:action=>"destroy", :controller=>"rooms"}
+                            DELETE /rooms/:id.:format               {:action=>"destroy", :controller=>"rooms"}
+                   contacts GET    /contacts                        {:action=>"index", :controller=>"contacts"}
+         formatted_contacts GET    /contacts.:format                {:action=>"index", :controller=>"contacts"}
+                            POST   /contacts                        {:action=>"create", :controller=>"contacts"}
+                            POST   /contacts.:format                {:action=>"create", :controller=>"contacts"}
+                new_contact GET    /contacts/new                    {:action=>"new", :controller=>"contacts"}
+      formatted_new_contact GET    /contacts/new.:format            {:action=>"new", :controller=>"contacts"}
+               edit_contact GET    /contacts/:id/edit               {:action=>"edit", :controller=>"contacts"}
+     formatted_edit_contact GET    /contacts/:id/edit.:format       {:action=>"edit", :controller=>"contacts"}
+                    contact GET    /contacts/:id                    {:action=>"show", :controller=>"contacts"}
+          formatted_contact GET    /contacts/:id.:format            {:action=>"show", :controller=>"contacts"}
+                            PUT    /contacts/:id                    {:action=>"update", :controller=>"contacts"}
+                            PUT    /contacts/:id.:format            {:action=>"update", :controller=>"contacts"}
+                            DELETE /contacts/:id                    {:action=>"destroy", :controller=>"contacts"}
+                            DELETE /contacts/:id.:format            {:action=>"destroy", :controller=>"contacts"}
+              manufacturers GET    /manufacturers                   {:action=>"index", :controller=>"manufacturers"}
+    formatted_manufacturers GET    /manufacturers.:format           {:action=>"index", :controller=>"manufacturers"}
+                            POST   /manufacturers                   {:action=>"create", :controller=>"manufacturers"}
+                            POST   /manufacturers.:format           {:action=>"create", :controller=>"manufacturers"}
+           new_manufacturer GET    /manufacturers/new               {:action=>"new", :controller=>"manufacturers"}
+ formatted_new_manufacturer GET    /manufacturers/new.:format       {:action=>"new", :controller=>"manufacturers"}
+          edit_manufacturer GET    /manufacturers/:id/edit          {:action=>"edit", :controller=>"manufacturers"}
+formatted_edit_manufacturer GET    /manufacturers/:id/edit.:format  {:action=>"edit", :controller=>"manufacturers"}
+               manufacturer GET    /manufacturers/:id               {:action=>"show", :controller=>"manufacturers"}
+     formatted_manufacturer GET    /manufacturers/:id.:format       {:action=>"show", :controller=>"manufacturers"}
+                            PUT    /manufacturers/:id               {:action=>"update", :controller=>"manufacturers"}
+                            PUT    /manufacturers/:id.:format       {:action=>"update", :controller=>"manufacturers"}
+                            DELETE /manufacturers/:id               {:action=>"destroy", :controller=>"manufacturers"}
+                            DELETE /manufacturers/:id.:format       {:action=>"destroy", :controller=>"manufacturers"}
+                model_names GET    /model_names                     {:action=>"index", :controller=>"model_names"}
+      formatted_model_names GET    /model_names.:format             {:action=>"index", :controller=>"model_names"}
+                            POST   /model_names                     {:action=>"create", :controller=>"model_names"}
+                            POST   /model_names.:format             {:action=>"create", :controller=>"model_names"}
+             new_model_name GET    /model_names/new                 {:action=>"new", :controller=>"model_names"}
+   formatted_new_model_name GET    /model_names/new.:format         {:action=>"new", :controller=>"model_names"}
+            edit_model_name GET    /model_names/:id/edit            {:action=>"edit", :controller=>"model_names"}
+  formatted_edit_model_name GET    /model_names/:id/edit.:format    {:action=>"edit", :controller=>"model_names"}
+                 model_name GET    /model_names/:id                 {:action=>"show", :controller=>"model_names"}
+       formatted_model_name GET    /model_names/:id.:format         {:action=>"show", :controller=>"model_names"}
+                            PUT    /model_names/:id                 {:action=>"update", :controller=>"model_names"}
+                            PUT    /model_names/:id.:format         {:action=>"update", :controller=>"model_names"}
+                            DELETE /model_names/:id                 {:action=>"destroy", :controller=>"model_names"}
+                            DELETE /model_names/:id.:format         {:action=>"destroy", :controller=>"model_names"}
+                                   /:controller/:action/:id         
+                                   /:controller/:action/:id.:format 
