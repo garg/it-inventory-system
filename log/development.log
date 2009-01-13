@@ -33815,3 +33815,57 @@ ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
   Parameters: {"authenticity_token"=>"bdaa9ea6d703e581a1df4c48df6bca85db9d7f15", "action"=>"add_feature", "controller"=>"items"}
 Rendered items/_add_a_feature (0.00002)
 Completed in 0.00352 (284 reqs/sec) | Rendering: 0.00109 (31%) | DB: 0.00000 (0%) | 200 OK [http://localhost/items/add_feature]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 14:52:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000468)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000392)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000484)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000239)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mSQL (0.000207)[0m   [0;1mSELECT count(*) AS count_all FROM "features" WHERE ("features".item_id = 2) [0m
+  [4;35;1mFeature Load (0.000329)[0m   [0mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Rendered items/_item_feature (0.00003)
+Rendered items/_item_feature (0.00001)
+Completed in 0.04812 (20 reqs/sec) | Rendering: 0.03295 (68%) | DB: 0.00212 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#add_feature (for 127.0.0.1 at 2009-01-13 14:52:09) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"authenticity_token"=>"bdaa9ea6d703e581a1df4c48df6bca85db9d7f15", "action"=>"add_feature", "controller"=>"items"}
+Rendered items/_add_a_feature (0.00002)
+Completed in 0.00350 (285 reqs/sec) | Rendering: 0.00106 (30%) | DB: 0.00000 (0%) | 200 OK [http://localhost/items/add_feature]
+
+
+Processing ItemsController#add_feature (for 127.0.0.1 at 2009-01-13 14:52:10) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"authenticity_token"=>"bdaa9ea6d703e581a1df4c48df6bca85db9d7f15", "action"=>"add_feature", "controller"=>"items"}
+Rendered items/_add_a_feature (0.00002)
+Completed in 0.00434 (230 reqs/sec) | Rendering: 0.00188 (43%) | DB: 0.00000 (0%) | 200 OK [http://localhost/items/add_feature]
+
+
+Processing ItemsController#add_feature (for 127.0.0.1 at 2009-01-13 14:52:10) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"authenticity_token"=>"bdaa9ea6d703e581a1df4c48df6bca85db9d7f15", "action"=>"add_feature", "controller"=>"items"}
+Rendered items/_add_a_feature (0.00002)
+Completed in 0.00351 (285 reqs/sec) | Rendering: 0.00109 (31%) | DB: 0.00000 (0%) | 200 OK [http://localhost/items/add_feature]
+
+
+Processing ItemsController#add_feature (for 127.0.0.1 at 2009-01-13 14:52:11) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"authenticity_token"=>"bdaa9ea6d703e581a1df4c48df6bca85db9d7f15", "action"=>"add_feature", "controller"=>"items"}
+Rendered items/_add_a_feature (0.00001)
+Completed in 0.00227 (440 reqs/sec) | Rendering: 0.00077 (33%) | DB: 0.00000 (0%) | 200 OK [http://localhost/items/add_feature]
