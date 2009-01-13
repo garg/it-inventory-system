@@ -4,21 +4,27 @@
   <%= f.error_messages %>
 
   <p>
-    <%= f.label :model_id %><br />
-    <%= f.text_field :model_id %>
+    <%= f.label :model_name_id %><br />
+    <%= f.text_field :model_name_id %>
   </p>
   <p>
     <%= f.label :room_id %><br />
     <%= f.text_field :room_id %>
   </p>
   <p>
-    <%= f.label :unique %><br />
-    <%= f.text_field :unique %>
+    <%= f.label :barcode %><br />
+    <%= f.text_field :barcode %>
+  </p>
+  
+  <p>
+    <%= f.label :purchase_date %><br />
+    <%= f.text_field :purchase_date %>
   </p>
   <p>
-    <%= f.label :field_id %><br />
-    <%= f.text_field :field_id %>
+    <%= f.label :warranty_period %><br />
+    <%= f.text_field :warranty_period %>
   </p>
+
   <p>
     <%= f.submit "Update" %>
   </p>

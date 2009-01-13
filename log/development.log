@@ -31057,3 +31057,1843 @@ Rendering model_names/index
   [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
   [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
 Completed in 57ms (View: 39, DB: 2) | 200 OK [http://localhost/model_names]
+
+
+Processing ManufacturersController#index (for 127.0.0.1 at 2009-01-13 08:06:45) [GET]
+  Session ID: cecc34ce658d7012ac85ceff48466c8a
+  Parameters: {"action"=>"index", "controller"=>"manufacturers"}
+  [4;36;1mManufacturer Load (0.000876)[0m   [0;1mSELECT * FROM "manufacturers" [0m
+Rendering template within layouts/application
+Rendering manufacturers/index
+Completed in 0.03829 (26 reqs/sec) | Rendering: 0.02047 (53%) | DB: 0.00088 (2%) | 200 OK [http://localhost/manufacturers]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 08:06:48) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;35;1mItem Load (0.000906)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;36;1mManufacturer Load (0.000388)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000362)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000351)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000444)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mRoom Load (0.000328)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mManufacturer Load (0.000365)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;35;1mModelName Load (0.000315)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.07756 (12 reqs/sec) | Rendering: 0.06009 (77%) | DB: 0.00346 (4%) | 200 OK [http://localhost/items]
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2009-01-13 08:06:49) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"features"}
+  [4;35;1mFeature Load (0.000790)[0m   [0mSELECT * FROM "features" [0m
+Rendering template within layouts/application
+Rendering features/index
+Completed in 0.02720 (36 reqs/sec) | Rendering: 0.02103 (77%) | DB: 0.00079 (2%) | 200 OK [http://localhost/features]
+
+
+Processing FeatureTypesController#index (for 127.0.0.1 at 2009-01-13 08:06:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"feature_types"}
+  [4;36;1mFeatureType Load (0.000821)[0m   [0;1mSELECT * FROM "feature_types" [0m
+Rendering template within layouts/application
+Rendering feature_types/index
+Completed in 0.09880 (10 reqs/sec) | Rendering: 0.01245 (12%) | DB: 0.00082 (0%) | 200 OK [http://localhost/feature_types]
+
+
+Processing RoomsController#index (for 127.0.0.1 at 2009-01-13 08:06:51) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"rooms"}
+  [4;35;1mRoom Load (0.000665)[0m   [0mSELECT * FROM "rooms" [0m
+Rendering template within layouts/application
+Rendering rooms/index
+  [4;36;1mContact Load (0.000226)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 1) [0m
+Completed in 0.03599 (27 reqs/sec) | Rendering: 0.03039 (84%) | DB: 0.00089 (2%) | 200 OK [http://localhost/rooms]
+
+
+Processing ContactsController#index (for 127.0.0.1 at 2009-01-13 08:06:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"contacts"}
+  [4;36;1mContact Load (0.001047)[0m   [0;1mSELECT * FROM "contacts" [0m
+Rendering template within layouts/application
+Rendering contacts/index
+  [4;35;1mRoom Load (0.000580)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms".contact_id = 1) [0m
+Completed in 0.02362 (42 reqs/sec) | Rendering: 0.01475 (62%) | DB: 0.00163 (6%) | 200 OK [http://localhost/contacts]
+
+
+Processing ManufacturersController#index (for 127.0.0.1 at 2009-01-13 08:06:52) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"manufacturers"}
+  [4;36;1mManufacturer Load (0.000642)[0m   [0;1mSELECT * FROM "manufacturers" [0m
+Rendering template within layouts/application
+Rendering manufacturers/index
+Completed in 0.00808 (123 reqs/sec) | Rendering: 0.00288 (35%) | DB: 0.00064 (7%) | 200 OK [http://localhost/manufacturers]
+
+
+Processing ModelNamesController#index (for 127.0.0.1 at 2009-01-13 08:06:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"model_names"}
+  [4;35;1mModelName Load (0.000817)[0m   [0mSELECT * FROM "model_names" [0m
+Rendering template within layouts/application
+Rendering model_names/index
+  [4;36;1mManufacturer Load (0.000221)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mManufacturer Load (0.000221)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+Completed in 0.02533 (39 reqs/sec) | Rendering: 0.01886 (74%) | DB: 0.00126 (4%) | 200 OK [http://localhost/model_names]
+  [4;36;1mSQL (0.000893)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000574)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateManufacturers (20081210201805)
+Migrating to CreateModelNames (20081216150819)
+Migrating to AddManufacturerId (20081218162205)
+Migrating to CreateContacts (20090105172142)
+Migrating to CreateRooms (20090105174504)
+Migrating to CreateItems (20090105203703)
+Migrating to RemoveField (20090105204915)
+Migrating to AddManufacturerColumnInItem (20090106204640)
+Migrating to CreateFeatureTypes (20090108191842)
+Migrating to CreateFeatures (20090108202616)
+Migrating to AddFeatureIdColumnToFeatureTypes (20090108202734)
+Migrating to AddFeatureTypeToFeatures (20090108205759)
+Migrating to ChangeFeatureTypeType (20090109151125)
+Migrating to ChangeColumnModelIdInItem (20090109155651)
+Migrating to ChangeColumnUniqueInItems (20090109162957)
+Migrating to ItemPurchaseDate (20090113163408)
+  [4;36;1mSQL (0.000110)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.004394)[0m   [0mALTER TABLE "items" ADD "purchase_date" date[0m
+  [4;36;1mSQL (0.005830)[0m   [0;1mVACUUM[0m
+  [4;35;1mSQL (0.007179)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090113163408')[0m
+Migrating to ItemWarrantyPeriod (20090113163829)
+  [4;36;1mSQL (0.002129)[0m   [0;1mALTER TABLE "items" ADD "warranty_period" integer[0m
+  [4;35;1mSQL (0.005554)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (0.010558)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090113163829')[0m
+  [4;35;1mSQL (0.000428)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000520)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000327)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000045)[0m   [0;1mPRAGMA index_list("contacts")[0m
+  [4;35;1mSQL (0.000042)[0m   [0mPRAGMA index_list("departments")[0m
+  [4;36;1mSQL (0.000042)[0m   [0;1mPRAGMA index_list("feature_types")[0m
+  [4;35;1mSQL (0.000043)[0m   [0mPRAGMA index_list("features")[0m
+  [4;36;1mSQL (0.000042)[0m   [0;1mPRAGMA index_list("items")[0m
+  [4;35;1mSQL (0.000045)[0m   [0mPRAGMA index_list("manufacturers")[0m
+  [4;36;1mSQL (0.000043)[0m   [0;1mPRAGMA index_list("model_names")[0m
+  [4;35;1mSQL (0.000042)[0m   [0mPRAGMA index_list("rooms")[0m
+  [4;36;1mSQL (0.000043)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 10:44:41) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;36;1mItem Load (0.001778)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;35;1mManufacturer Load (0.000360)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000340)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000222)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000265)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mRoom Load (0.000187)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mManufacturer Load (0.000216)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;36;1mModelName Load (0.000189)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.04138 (24 reqs/sec) | Rendering: 0.02844 (68%) | DB: 0.00356 (8%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 10:44:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000218)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000237)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000225)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000206)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.02307 (43 reqs/sec) | Rendering: 0.01615 (69%) | DB: 0.00089 (3%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#edit (for 127.0.0.1 at 2009-01-13 10:44:45) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000230)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/edit
+
+
+ActionView::TemplateError (undefined method `model_id' for #<Item:0xb72a8188>) on line #8 of items/edit.html.erb:
+5: 
+6:   <p>
+7:     <%= f.label :model_id %><br />
+8:     <%= f.text_field :model_id %>
+9:   </p>
+10:   <p>
+11:     <%= f.label :room_id %><br />
+
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/attribute_methods.rb:256:in `method_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:628:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:628:in `value_before_type_cast'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:616:in `value_before_type_cast'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:535:in `to_input_field_tag'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:358:in `text_field'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:713:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:713:in `text_field'
+    app/views/items/edit.html.erb:8:in `_run_erb_47app47views47items47edit46html46erb'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:317:in `fields_for'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:253:in `form_for'
+    app/views/items/edit.html.erb:3:in `_run_erb_47app47views47items47edit46html46erb'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:342:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:342:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:35:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:22:in `render_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:248:in `render_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1112:in `render_for_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:845:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1161:in `default_render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1167:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:579:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:529:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/session_management.rb:130:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:389:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ItemsController#edit (for 127.0.0.1 at 2009-01-13 10:45:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000448)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/edit
+
+
+ActionView::TemplateError (undefined method `field_id' for #<Item:0xb70c5848>) on line #20 of items/edit.html.erb:
+17:   </p>
+18:   <p>
+19:     <%= f.label :field_id %><br />
+20:     <%= f.text_field :field_id %>
+21:   </p>
+22:   <p>
+23:     <%= f.submit "Update" %>
+
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/attribute_methods.rb:256:in `method_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:628:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:628:in `value_before_type_cast'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:616:in `value_before_type_cast'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:535:in `to_input_field_tag'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:358:in `text_field'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:713:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:713:in `text_field'
+    app/views/items/edit.html.erb:20:in `_run_erb_47app47views47items47edit46html46erb'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:317:in `fields_for'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/helpers/form_helper.rb:253:in `form_for'
+    app/views/items/edit.html.erb:3:in `_run_erb_47app47views47items47edit46html46erb'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:342:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:342:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:35:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:22:in `render_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:248:in `render_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1112:in `render_for_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:845:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1161:in `default_render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1167:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:579:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:529:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/session_management.rb:130:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:389:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ItemsController#edit (for 127.0.0.1 at 2009-01-13 10:45:58) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000276)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/edit
+Completed in 0.01185 (84 reqs/sec) | Rendering: 0.00538 (45%) | DB: 0.00028 (2%) | 200 OK [http://localhost/items/2/edit]
+
+
+Processing ItemsController#edit (for 127.0.0.1 at 2009-01-13 10:47:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000392)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/edit
+Completed in 0.15132 (6 reqs/sec) | Rendering: 0.14098 (93%) | DB: 0.00039 (0%) | 200 OK [http://localhost/items/2/edit]
+
+
+Processing ItemsController#update (for 127.0.0.1 at 2009-01-13 10:47:46) [PUT]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"bdaa9ea6d703e581a1df4c48df6bca85db9d7f15", "_method"=>"put", "action"=>"update", "id"=>"2", "controller"=>"items", "item"=>{"room_id"=>"1", "purchase_date(2i)"=>"1", "purchase_date(3i)"=>"13", "barcode"=>"123", "model_name_id"=>"1", "warranty_period"=>"365", "purchase_date(1i)"=>"2009"}}
+  [4;36;1mItem Load (0.000457)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.000247)[0m   [0mSELECT "barcode" FROM "items" WHERE ("items".barcode = 123 AND "items".id <> 2) [0m
+  [4;36;1mItem Update (0.000859)[0m   [0;1mUPDATE "items" SET "updated_at" = '2009-01-13 16:47:46', "warranty_period" = 365, "purchase_date" = '2009-01-13' WHERE "id" = 2[0m
+Redirected to http://localhost:3000/items/2
+Completed in 0.02994 (33 reqs/sec) | DB: 0.00156 (5%) | 302 Found [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 10:47:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNJdGVtIHdhcyBzdWNjZXNzZnVsbHkgdXBkYXRlZC4G
+OgpAdXNlZHsGOwdG--6610ebe314d1cf31b36c63be377bda220d532d82
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000275)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000249)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000230)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000199)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.02431 (41 reqs/sec) | Rendering: 0.01598 (65%) | DB: 0.00095 (3%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 10:47:50) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiI0l0ZW0gd2FzIHN1Y2Nlc3NmdWxseSB1cGRhdGVk
+LgY6CkB1c2VkewY7BlQ6DGNzcmZfaWQiJWJhMDkyZjQyOTM1ZmVjZDU5ZDgy
+ZDg0MjZiYWIyODI5--91c4b6fcf90d2f3bd5fede61097953c54651ecc5
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;35;1mItem Load (0.001010)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;36;1mManufacturer Load (0.000228)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000283)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000223)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000264)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mRoom Load (0.000205)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mManufacturer Load (0.000234)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;35;1mModelName Load (0.000182)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.10139 (9 reqs/sec) | Rendering: 0.02570 (25%) | DB: 0.00263 (2%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 10:47:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000397)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000347)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000371)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000339)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.03987 (25 reqs/sec) | Rendering: 0.02768 (69%) | DB: 0.00145 (3%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 11:31:05) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000395)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000405)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000356)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000395)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mSQL (0.000685)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+ActionView::TemplateError (undefined method `feature_type' for #<Class:0xb70fcc58>) on line #34 of items/show.html.erb:
+31: 
+32: 
+33: <h4>Specs</h4>
+34:   <%=h @item.features.feature_type %>
+35: 
+36: 
+37: 
+
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/base.rb:1672:in `method_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_collection.rb:288:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_collection.rb:288:in `method_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/base.rb:1857:in `with_scope'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_proxy.rb:164:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_proxy.rb:164:in `with_scope'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_collection.rb:284:in `method_missing'
+    app/views/items/show.html.erb:34:in `_run_erb_47app47views47items47show46html46erb'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:342:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:342:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:35:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:22:in `render_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:248:in `render_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1112:in `render_for_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:869:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:884:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:131:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:131:in `custom'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:160:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:160:in `respond'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:154:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:154:in `respond'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/items_controller.rb:18:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1166:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:579:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:529:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/session_management.rb:130:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:389:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 11:31:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000223)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000205)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000207)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000293)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000555)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.03610 (27 reqs/sec) | Rendering: 0.02851 (78%) | DB: 0.00148 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 11:31:23) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000236)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000228)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000222)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000216)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mSQL (0.000433)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+ActionView::TemplateError (undefined method `examine' for #<Class:0xb7254f4c>) on line #34 of items/show.html.erb:
+31: 
+32: 
+33: <h4>Specs</h4>
+34:   <%=h @item.features.examine %>
+35: 
+36: 
+37: 
+
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/base.rb:1672:in `method_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_collection.rb:288:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_collection.rb:288:in `method_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/base.rb:1857:in `with_scope'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_proxy.rb:164:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_proxy.rb:164:in `with_scope'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_collection.rb:284:in `method_missing'
+    app/views/items/show.html.erb:34:in `_run_erb_47app47views47items47show46html46erb'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:342:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:342:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:35:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:22:in `render_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:248:in `render_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1112:in `render_for_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:869:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:884:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:131:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:131:in `custom'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:160:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:160:in `respond'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:154:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:154:in `respond'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/items_controller.rb:18:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1166:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:579:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:529:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/session_management.rb:130:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:389:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 11:31:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000235)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000215)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000221)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000206)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000283)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.02858 (34 reqs/sec) | Rendering: 0.02039 (71%) | DB: 0.00116 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 11:31:52) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000342)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000211)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000258)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000207)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mFeature Load (0.000268)[0m   [0mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.02764 (36 reqs/sec) | Rendering: 0.01967 (71%) | DB: 0.00129 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 11:32:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000398)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000360)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000237)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000223)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000353)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.10502 (9 reqs/sec) | Rendering: 0.09148 (87%) | DB: 0.00157 (1%) | 200 OK [http://localhost/items/2]
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2009-01-13 11:32:58) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"features"}
+  [4;35;1mFeature Load (0.000678)[0m   [0mSELECT * FROM "features" [0m
+Rendering template within layouts/application
+Rendering features/index
+Completed in 0.00988 (101 reqs/sec) | Rendering: 0.00317 (32%) | DB: 0.00068 (6%) | 200 OK [http://localhost/features]
+
+
+Processing FeaturesController#new (for 127.0.0.1 at 2009-01-13 11:33:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"new", "controller"=>"features"}
+Rendering template within layouts/application
+Rendering features/new
+  [4;36;1mItem Load (0.001032)[0m   [0;1mSELECT * FROM "items" [0m
+  [4;35;1mFeatureType Load (0.000740)[0m   [0mSELECT * FROM "feature_types" [0m
+Completed in 0.05446 (18 reqs/sec) | Rendering: 0.04360 (80%) | DB: 0.00177 (3%) | 200 OK [http://localhost/features/new]
+
+
+Processing FeaturesController#create (for 127.0.0.1 at 2009-01-13 11:33:10) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"feature"=>{"feature_type"=>"Processor", "information"=>"bla bla bla", "item_id"=>"2"}, "commit"=>"Create", "authenticity_token"=>"bdaa9ea6d703e581a1df4c48df6bca85db9d7f15", "action"=>"create", "controller"=>"features"}
+  [4;36;1mFeature Create (0.000532)[0m   [0;1mINSERT INTO "features" ("created_at", "updated_at", "information", "feature_type", "item_id") VALUES('2009-01-13 17:33:10', '2009-01-13 17:33:10', 'bla bla bla', 'Processor', 2)[0m
+Redirected to http://localhost:3000/features/7
+Completed in 0.02450 (40 reqs/sec) | DB: 0.00053 (2%) | 302 Found [http://localhost/features]
+
+
+Processing FeaturesController#show (for 127.0.0.1 at 2009-01-13 11:33:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZGZWF0dXJlIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdG--2881e9e23fa3738c729ac9c63018624ba2533197
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"features"}
+  [4;35;1mFeature Load (0.000321)[0m   [0mSELECT * FROM "features" WHERE ("features"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering features/show
+Completed in 0.02377 (42 reqs/sec) | Rendering: 0.01745 (73%) | DB: 0.00032 (1%) | 200 OK [http://localhost/features/7]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 11:33:15) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiJkZlYXR1cmUgd2FzIHN1Y2Nlc3NmdWxseSBjcmVh
+dGVkLgY6CkB1c2VkewY7BlQ6DGNzcmZfaWQiJWJhMDkyZjQyOTM1ZmVjZDU5
+ZDgyZDg0MjZiYWIyODI5--e3eac1c96e960d29c6471e9ccd3aca2f3e44bd1e
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;36;1mItem Load (0.001099)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;35;1mManufacturer Load (0.000216)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000214)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000216)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000239)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mRoom Load (0.000183)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mManufacturer Load (0.000217)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;36;1mModelName Load (0.000185)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.02904 (34 reqs/sec) | Rendering: 0.02088 (71%) | DB: 0.00257 (8%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 11:33:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000468)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000342)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000351)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000357)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000520)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.04651 (21 reqs/sec) | Rendering: 0.03316 (71%) | DB: 0.00204 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:43:44) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000280)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000241)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000252)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000237)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mFeature Load (0.000376)[0m   [0mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.03234 (30 reqs/sec) | Rendering: 0.02381 (73%) | DB: 0.00139 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:43:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000397)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000427)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000686)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000378)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000561)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.05139 (19 reqs/sec) | Rendering: 0.03820 (74%) | DB: 0.00245 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:43:59) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000415)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000453)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000373)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000344)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mFeature Load (0.000581)[0m   [0mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.05311 (18 reqs/sec) | Rendering: 0.03922 (73%) | DB: 0.00217 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:44:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000395)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000339)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000355)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000386)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000540)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.04710 (21 reqs/sec) | Rendering: 0.03442 (73%) | DB: 0.00202 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-01-13 12:44:36) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/types" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ItemsController#new (for 127.0.0.1 at 2009-01-13 12:44:40) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"new", "controller"=>"items"}
+Rendering template within layouts/application
+Rendering items/new
+  [4;35;1mManufacturer Load (0.000329)[0m   [0mSELECT * FROM "manufacturers" [0m
+  [4;36;1mRoom Load (0.000327)[0m   [0;1mSELECT * FROM "rooms" [0m
+Completed in 0.02441 (40 reqs/sec) | Rendering: 0.01692 (69%) | DB: 0.00066 (2%) | 200 OK [http://localhost/items/new]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 12:44:42) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;35;1mItem Load (0.000969)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;36;1mManufacturer Load (0.000206)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000208)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000197)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000280)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mRoom Load (0.000167)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mManufacturer Load (0.000384)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;35;1mModelName Load (0.000254)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.03123 (32 reqs/sec) | Rendering: 0.02372 (75%) | DB: 0.00267 (8%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:44:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000609)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000234)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000234)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.001492)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mFeature Load (0.000362)[0m   [0mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.11312 (8 reqs/sec) | Rendering: 0.09920 (87%) | DB: 0.00293 (2%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:45:24) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000254)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000244)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000264)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000265)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000369)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.03155 (31 reqs/sec) | Rendering: 0.02326 (73%) | DB: 0.00140 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:45:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000395)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000338)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000355)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000341)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mFeature Load (0.000526)[0m   [0mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.04636 (21 reqs/sec) | Rendering: 0.03391 (73%) | DB: 0.00196 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:45:33) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000269)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000216)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000217)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000341)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000351)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.02980 (33 reqs/sec) | Rendering: 0.02167 (72%) | DB: 0.00139 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:45:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000352)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000450)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000253)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000225)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mFeature Load (0.000350)[0m   [0mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.03339 (29 reqs/sec) | Rendering: 0.02469 (73%) | DB: 0.00163 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:45:53) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000278)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000217)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000306)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000218)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000346)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+
+
+ActionView::TemplateError (undefined method `name' for #<Feature:0xb7260658>) on line #35 of items/show.html.erb:
+32: 
+33: <h4>Specs</h4>
+34:   <% @item.features.each do |x| %>
+35:   <%= x.name %>
+36:   <% end %>
+37: 
+38: 
+
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/attribute_methods.rb:256:in `method_missing'
+    app/views/items/show.html.erb:35:in `_run_erb_47app47views47items47show46html46erb'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_collection.rb:277:in `method_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_proxy.rb:171:in `method_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_proxy.rb:171:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_proxy.rb:171:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_proxy.rb:171:in `method_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/associations/association_collection.rb:277:in `method_missing'
+    app/views/items/show.html.erb:34:in `_run_erb_47app47views47items47show46html46erb'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:342:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:342:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:35:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:22:in `render_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:248:in `render_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1112:in `render_for_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:869:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:884:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:131:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:131:in `custom'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:160:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:160:in `respond'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:154:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:154:in `respond'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/items_controller.rb:18:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1166:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:579:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:529:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/session_management.rb:130:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:389:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:46:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000319)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000224)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000223)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000212)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mFeature Load (0.000387)[0m   [0mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.03364 (29 reqs/sec) | Rendering: 0.02296 (68%) | DB: 0.00137 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:53:15) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000223)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000223)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000220)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000201)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000323)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.02805 (35 reqs/sec) | Rendering: 0.02041 (72%) | DB: 0.00119 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 12:53:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;35;1mItem Load (0.001091)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;36;1mManufacturer Load (0.000206)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000237)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000223)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000252)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mRoom Load (0.000176)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mManufacturer Load (0.000219)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;35;1mModelName Load (0.000189)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.08374 (11 reqs/sec) | Rendering: 0.07616 (90%) | DB: 0.00259 (3%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:53:21) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"items"}
+  [4;35;1mItem Load (0.000406)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000362)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000363)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mRoom Load (0.000338)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;35;1mFeature Load (0.000244)[0m   [0mSELECT * FROM "features" WHERE ("features".item_id = 3) [0m
+Completed in 0.04465 (22 reqs/sec) | Rendering: 0.03183 (71%) | DB: 0.00171 (3%) | 200 OK [http://localhost/items/3]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 12:53:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;36;1mItem Load (0.001619)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;35;1mManufacturer Load (0.000213)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000208)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000205)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000244)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mRoom Load (0.000168)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mManufacturer Load (0.000199)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;36;1mModelName Load (0.000175)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.03368 (29 reqs/sec) | Rendering: 0.02232 (66%) | DB: 0.00303 (9%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:53:25) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"4", "controller"=>"items"}
+  [4;36;1mItem Load (0.000243)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000220)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000224)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mRoom Load (0.000228)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000289)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 4) [0m
+Completed in 0.03017 (33 reqs/sec) | Rendering: 0.02205 (73%) | DB: 0.00120 (3%) | 200 OK [http://localhost/items/4]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 12:57:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;35;1mItem Load (0.000948)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;36;1mManufacturer Load (0.000206)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000216)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000202)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000296)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mRoom Load (0.000226)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mManufacturer Load (0.000271)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;35;1mModelName Load (0.000228)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.02811 (35 reqs/sec) | Rendering: 0.02059 (73%) | DB: 0.00259 (9%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 12:57:32) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;35;1mItem Load (0.000962)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;36;1mManufacturer Load (0.000247)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000217)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000229)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000267)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mRoom Load (0.000183)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mManufacturer Load (0.000211)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;35;1mModelName Load (0.000190)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.08694 (11 reqs/sec) | Rendering: 0.07644 (87%) | DB: 0.00251 (2%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 12:57:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;35;1mItem Load (0.001658)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;36;1mManufacturer Load (0.000347)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000228)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000208)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000231)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mRoom Load (0.000170)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mManufacturer Load (0.000226)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;35;1mModelName Load (0.000181)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.03794 (26 reqs/sec) | Rendering: 0.02562 (67%) | DB: 0.00325 (8%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 12:57:45) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;35;1mItem Load (0.001752)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;36;1mManufacturer Load (0.000523)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000469)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000221)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000293)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mRoom Load (0.000253)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mManufacturer Load (0.000253)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;35;1mModelName Load (0.000188)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.04533 (22 reqs/sec) | Rendering: 0.03138 (69%) | DB: 0.00395 (8%) | 200 OK [http://localhost/items]
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2009-01-13 12:57:51) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"features"}
+  [4;35;1mFeature Load (0.000776)[0m   [0mSELECT * FROM "features" [0m
+Rendering template within layouts/application
+Rendering features/index
+Completed in 0.00919 (108 reqs/sec) | Rendering: 0.00355 (38%) | DB: 0.00078 (8%) | 200 OK [http://localhost/features]
+
+
+Processing FeatureTypesController#index (for 127.0.0.1 at 2009-01-13 12:57:53) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"feature_types"}
+  [4;36;1mFeatureType Load (0.000740)[0m   [0;1mSELECT * FROM "feature_types" [0m
+Rendering template within layouts/application
+Rendering feature_types/index
+Completed in 0.00863 (115 reqs/sec) | Rendering: 0.00339 (39%) | DB: 0.00074 (8%) | 200 OK [http://localhost/feature_types]
+
+
+Processing RoomsController#index (for 127.0.0.1 at 2009-01-13 12:57:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"rooms"}
+  [4;35;1mRoom Load (0.000672)[0m   [0mSELECT * FROM "rooms" [0m
+Rendering template within layouts/application
+Rendering rooms/index
+  [4;36;1mContact Load (0.000214)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 1) [0m
+Completed in 0.01301 (76 reqs/sec) | Rendering: 0.00730 (56%) | DB: 0.00089 (6%) | 200 OK [http://localhost/rooms]
+
+
+Processing ContactsController#index (for 127.0.0.1 at 2009-01-13 12:57:55) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"contacts"}
+  [4;36;1mContact Load (0.001157)[0m   [0;1mSELECT * FROM "contacts" [0m
+Rendering template within layouts/application
+Rendering contacts/index
+  [4;35;1mRoom Load (0.000628)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms".contact_id = 1) [0m
+Completed in 0.02623 (38 reqs/sec) | Rendering: 0.01481 (56%) | DB: 0.00179 (6%) | 200 OK [http://localhost/contacts]
+
+
+Processing ManufacturersController#index (for 127.0.0.1 at 2009-01-13 12:57:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"manufacturers"}
+  [4;36;1mManufacturer Load (0.000673)[0m   [0;1mSELECT * FROM "manufacturers" [0m
+Rendering template within layouts/application
+Rendering manufacturers/index
+Completed in 0.00864 (115 reqs/sec) | Rendering: 0.00296 (34%) | DB: 0.00067 (7%) | 200 OK [http://localhost/manufacturers]
+
+
+Processing ModelNamesController#index (for 127.0.0.1 at 2009-01-13 12:57:58) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"model_names"}
+  [4;35;1mModelName Load (0.000809)[0m   [0mSELECT * FROM "model_names" [0m
+Rendering template within layouts/application
+Rendering model_names/index
+  [4;36;1mManufacturer Load (0.000205)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mManufacturer Load (0.000204)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+Completed in 0.02091 (47 reqs/sec) | Rendering: 0.00871 (41%) | DB: 0.00122 (5%) | 200 OK [http://localhost/model_names]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 12:57:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;36;1mItem Load (0.001784)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;35;1mManufacturer Load (0.000519)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000452)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000341)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000438)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mRoom Load (0.000301)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mManufacturer Load (0.000327)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;36;1mModelName Load (0.000316)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.05453 (18 reqs/sec) | Rendering: 0.03764 (69%) | DB: 0.00448 (8%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 12:58:11) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000233)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000214)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000227)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000205)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000345)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.02969 (33 reqs/sec) | Rendering: 0.02114 (71%) | DB: 0.00122 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#edit (for 127.0.0.1 at 2009-01-13 12:58:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000510)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/edit
+Completed in 0.02054 (48 reqs/sec) | Rendering: 0.00862 (41%) | DB: 0.00051 (2%) | 200 OK [http://localhost/items/2/edit]
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2009-01-13 13:07:54) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"features"}
+  [4;36;1mFeature Load (0.000728)[0m   [0;1mSELECT * FROM "features" [0m
+Rendering template within layouts/application
+Rendering features/index
+Completed in 0.00868 (115 reqs/sec) | Rendering: 0.00356 (41%) | DB: 0.00073 (8%) | 200 OK [http://localhost/features]
+
+
+Processing FeatureTypesController#index (for 127.0.0.1 at 2009-01-13 13:07:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"feature_types"}
+  [4;35;1mFeatureType Load (0.000742)[0m   [0mSELECT * FROM "feature_types" [0m
+Rendering template within layouts/application
+Rendering feature_types/index
+Completed in 0.00859 (116 reqs/sec) | Rendering: 0.00349 (40%) | DB: 0.00074 (8%) | 200 OK [http://localhost/feature_types]
+
+
+Processing ContactsController#index (for 127.0.0.1 at 2009-01-13 13:07:56) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"contacts"}
+  [4;36;1mContact Load (0.000614)[0m   [0;1mSELECT * FROM "contacts" [0m
+Rendering template within layouts/application
+Rendering contacts/index
+  [4;35;1mRoom Load (0.000328)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms".contact_id = 1) [0m
+Completed in 0.01467 (68 reqs/sec) | Rendering: 0.00744 (50%) | DB: 0.00094 (6%) | 200 OK [http://localhost/contacts]
+
+
+Processing ManufacturersController#index (for 127.0.0.1 at 2009-01-13 13:07:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"manufacturers"}
+  [4;36;1mManufacturer Load (0.000895)[0m   [0;1mSELECT * FROM "manufacturers" [0m
+Rendering template within layouts/application
+Rendering manufacturers/index
+Completed in 0.01120 (89 reqs/sec) | Rendering: 0.00432 (38%) | DB: 0.00090 (7%) | 200 OK [http://localhost/manufacturers]
+
+
+Processing ModelNamesController#index (for 127.0.0.1 at 2009-01-13 13:07:57) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"model_names"}
+  [4;35;1mModelName Load (0.000785)[0m   [0mSELECT * FROM "model_names" [0m
+Rendering template within layouts/application
+Rendering model_names/index
+  [4;36;1mManufacturer Load (0.000203)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mManufacturer Load (0.000196)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+Completed in 0.01391 (71 reqs/sec) | Rendering: 0.00837 (60%) | DB: 0.00118 (8%) | 200 OK [http://localhost/model_names]
+
+
+Processing RoomsController#index (for 127.0.0.1 at 2009-01-13 13:07:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"rooms"}
+  [4;36;1mRoom Load (0.000796)[0m   [0;1mSELECT * FROM "rooms" [0m
+Rendering template within layouts/application
+Rendering rooms/index
+  [4;35;1mContact Load (0.000227)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "contacts" WHERE ("contacts"."id" = 1) [0m
+Completed in 0.01402 (71 reqs/sec) | Rendering: 0.00824 (58%) | DB: 0.00102 (7%) | 200 OK [http://localhost/rooms]
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2009-01-13 13:07:59) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"features"}
+  [4;35;1mFeature Load (0.001264)[0m   [0mSELECT * FROM "features" [0m
+Rendering template within layouts/application
+Rendering features/index
+Completed in 0.01544 (64 reqs/sec) | Rendering: 0.00608 (39%) | DB: 0.00126 (8%) | 200 OK [http://localhost/features]
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2009-01-13 13:08:20) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"features"}
+  [4;36;1mFeature Load (0.000783)[0m   [0;1mSELECT * FROM "features" [0m
+Rendering template within layouts/application
+Rendering features/index
+Completed in 0.00920 (108 reqs/sec) | Rendering: 0.00362 (39%) | DB: 0.00078 (8%) | 200 OK [http://localhost/features]
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2009-01-13 13:08:31) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"features"}
+  [4;35;1mFeature Load (0.001259)[0m   [0mSELECT * FROM "features" [0m
+Rendering template within layouts/application
+Rendering features/index
+Completed in 0.01587 (63 reqs/sec) | Rendering: 0.00646 (40%) | DB: 0.00126 (7%) | 200 OK [http://localhost/features]
+
+
+Processing FeatureTypesController#index (for 127.0.0.1 at 2009-01-13 13:08:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"feature_types"}
+  [4;36;1mFeatureType Load (0.000968)[0m   [0;1mSELECT * FROM "feature_types" [0m
+Rendering template within layouts/application
+Rendering feature_types/index
+Completed in 0.01108 (90 reqs/sec) | Rendering: 0.00441 (39%) | DB: 0.00097 (8%) | 200 OK [http://localhost/feature_types]
+
+
+Processing FeatureTypesController#index (for 127.0.0.1 at 2009-01-13 13:09:05) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"feature_types"}
+  [4;35;1mFeatureType Load (0.000736)[0m   [0mSELECT * FROM "feature_types" [0m
+Rendering template within layouts/application
+Rendering feature_types/index
+Completed in 0.00872 (114 reqs/sec) | Rendering: 0.00326 (37%) | DB: 0.00074 (8%) | 200 OK [http://localhost/feature_types]
+
+
+Processing FeatureTypesController#index (for 127.0.0.1 at 2009-01-13 13:09:20) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"feature_types"}
+  [4;36;1mFeatureType Load (0.001259)[0m   [0;1mSELECT * FROM "feature_types" [0m
+Rendering template within layouts/application
+Rendering feature_types/index
+Completed in 0.01465 (68 reqs/sec) | Rendering: 0.00601 (41%) | DB: 0.00126 (8%) | 200 OK [http://localhost/feature_types]
+
+
+Processing FeatureTypesController#index (for 127.0.0.1 at 2009-01-13 13:09:29) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"index", "controller"=>"feature_types"}
+  [4;35;1mFeatureType Load (0.000713)[0m   [0mSELECT * FROM "feature_types" [0m
+Rendering template within layouts/application
+Rendering feature_types/index
+Completed in 0.00812 (123 reqs/sec) | Rendering: 0.00347 (42%) | DB: 0.00071 (8%) | 200 OK [http://localhost/feature_types]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2009-01-13 13:09:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;36;1mItem Load (0.001021)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/application
+Rendering items/index
+  [4;35;1mManufacturer Load (0.000213)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000220)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000222)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000257)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;36;1mRoom Load (0.000225)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 3) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mManufacturer Load (0.000263)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 2) [0m
+  [4;36;1mModelName Load (0.000198)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 2) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+Completed in 0.02873 (34 reqs/sec) | Rendering: 0.02078 (72%) | DB: 0.00262 (9%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 13:09:39) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000396)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000344)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000360)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000371)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000520)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Completed in 0.04733 (21 reqs/sec) | Rendering: 0.03459 (73%) | DB: 0.00199 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 13:31:51) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000408)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000355)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000372)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000344)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mFeature Load (0.000562)[0m   [0mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+
+
+ActionView::TemplateError (Missing template items/_item_feature.html.erb in view path /home/khurrum/Rails/inventory/app/views) on line #39 of items/show.html.erb:
+36:   <% end %>
+37: 
+38: 
+39: <%= render(:partial => "item_feature", :collection => @item.features) %>
+40: 
+41: 
+42: 
+
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:85:in `raise_missing_template_exception'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:78:in `set_extension_and_file_name'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:15:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/partial_template.rb:8:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/partials.rb:140:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/partials.rb:140:in `render_partial_collection_with_known_partial_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/partials.rb:135:in `render_partial_collection'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:275:in `render'
+    app/views/items/show.html.erb:39:in `_run_erb_47app47views47items47show46html46erb'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:342:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:342:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:35:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/template.rb:22:in `render_template'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_view/base.rb:248:in `render_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1112:in `render_for_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:869:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:884:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:131:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:131:in `custom'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:160:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:160:in `respond'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:154:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:154:in `respond'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/items_controller.rb:18:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1166:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:1166:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:579:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:529:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/session_management.rb:130:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/base.rb:389:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 13:32:24) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000267)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000220)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000234)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000213)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mFeature Load (0.000407)[0m   [0;1mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Rendered items/_item_feature (0.00002)
+Rendered items/_item_feature (0.00001)
+Completed in 0.03247 (30 reqs/sec) | Rendering: 0.02356 (72%) | DB: 0.00134 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 13:33:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlkODJkODQyNmJhYjI4
+MjkiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9e43dd289902af8983312c59c65ab8f818f0ba63
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;35;1mItem Load (0.000283)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;36;1mManufacturer Load (0.000226)[0m   [0;1mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;35;1mModelName Load (0.000241)[0m   [0mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;36;1mRoom Load (0.000233)[0m   [0;1mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;35;1mFeature Load (0.000487)[0m   [0mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Rendered items/_item_feature (0.00002)
+Rendered items/_item_feature (0.00001)
+Completed in 0.03214 (31 reqs/sec) | Rendering: 0.02333 (72%) | DB: 0.00147 (4%) | 200 OK [http://localhost/items/2]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2009-01-13 13:33:20) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYmEwOTJmNDI5MzVmZWNkNTlk
+ODJkODQyNmJhYjI4Mjk=--2efbf279ecccc1366f381d90a4722f15f58e1740
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"items"}
+  [4;36;1mItem Load (0.000276)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering items/show
+  [4;35;1mManufacturer Load (0.000227)[0m   [0mSELECT * FROM "manufacturers" WHERE ("manufacturers"."id" = 1) [0m
+  [4;36;1mModelName Load (0.000235)[0m   [0;1mSELECT * FROM "model_names" WHERE ("model_names"."id" = 1) [0m
+  [4;35;1mRoom Load (0.000296)[0m   [0mSELECT * FROM "rooms" WHERE ("rooms"."id" = 1) [0m
+  [4;36;1mSQL (0.000203)[0m   [0;1mSELECT count(*) AS count_all FROM "features" WHERE ("features".item_id = 2) [0m
+  [4;35;1mFeature Load (0.000260)[0m   [0mSELECT * FROM "features" WHERE ("features".item_id = 2) [0m
+Rendered items/_item_feature (0.00002)
+Rendered items/_item_feature (0.00001)
+Completed in 0.09055 (11 reqs/sec) | Rendering: 0.08225 (90%) | DB: 0.00150 (1%) | 200 OK [http://localhost/items/2]

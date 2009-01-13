@@ -19,6 +19,26 @@
   <%=h @item.barcode %>
 </p>
 
+<p>
+  <b>Purchased:</b>
+  <%=h @item.purchase_date %>
+</p>
+
+<p>
+  <b>Warranty Period:</b>
+  <%=h @item.warranty_period %>
+</p>
+
+
+<h4>Specs</h4>
+  <% @item.features.each do |x| %>
+  <%= x.feature_type %>:  <%= x.information %> <br />
+  <% end %>
+
+
+<%= render(:partial => "item_feature", :collection => @item.features) %>
+
+
 
 
 
