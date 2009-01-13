@@ -14,7 +14,7 @@ class ItemsController < ApplicationController
   # GET /items/1.xml
   def show
     @item = Item.find(params[:id])
-
+ @features = Feature.find(:all)
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @item }
@@ -98,4 +98,9 @@ class ItemsController < ApplicationController
     render(:text => @html)
     
   end
+  
+  def add_feature
+    render :partial => "add_a_feature"
+  end
+  
 end
