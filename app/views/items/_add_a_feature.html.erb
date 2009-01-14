@@ -1,3 +1,21 @@
-<h1>New feature</h1>
+<h3>New feature</h3>
 
 
+
+<% remote_form_for :feature, @feature, :url => { :action  => "createfeature"}, :complete => visual_effect(:highlight, 'item_features') do |f| %>
+  <%= f.error_messages %>
+
+
+    <p><%= f.hidden_field :item_id, {:value => params[:id]} %> </p>
+  </p>
+  
+  <p>Feature Type: <%= f.select(:feature_type, FeatureType.find(:all).collect {|u| [u.name, u.name]}, :prompt => 'Select') %> </p>
+  
+  <p>
+    <%= f.label :information %><br />
+    <%= f.text_field :information %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>

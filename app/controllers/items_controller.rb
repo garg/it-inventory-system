@@ -14,6 +14,7 @@ class ItemsController < ApplicationController
   # GET /items/1.xml
   def show
     @item = Item.find(params[:id])
+    @feature = Feature.new
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @item }
@@ -101,5 +102,19 @@ class ItemsController < ApplicationController
   def add_feature
     render :partial => "add_a_feature"
   end
+  
+
+  
+  def createfeature
+    @item = Item.find(params[:feature][:item_id])
+    @feature = Feature.new(params[:feature])
+    @feature.save
+    
+    respond_to do |format|
+      format.js
+    end
+
+  end
+  
   
 end

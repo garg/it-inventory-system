@@ -1,1 +1,2 @@
-<p><%= item_feature.information %>
+<li><%= item_feature.feature_type %>: <%= item_feature.information %></li>
+<%= link_to 'Destroy', feature, :confirm => 'Are you sure?', :method => :delete %>

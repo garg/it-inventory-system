@@ -1,0 +1,1 @@
+page.replace_html("add_features", :partial => "item_feature", :collection => @item.features)
