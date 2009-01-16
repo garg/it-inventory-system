@@ -1,2 +1,6 @@
 <li><%= item_feature.feature_type %>: <%= item_feature.information %></li>
-<%= link_to 'Destroy', feature, :confirm => 'Are you sure?', :method => :delete %>
+<%= link_to 'Destroy', item_feature, :confirm => 'Are you sure?', :method => :delete %>
+
+<%= link_to_remote 'delete', :url => item_path(item_feature), :confirm => 'Sure?', :complete => visual_effect(:highlight, 'item_features'), :method => :delete %>
+
+

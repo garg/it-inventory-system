@@ -80,7 +80,6 @@ class FeaturesController < ApplicationController
     respond_to do |format|
       format.html { redirect_to(features_url) }
       format.xml  { head :ok }
-      format.js
     end
   end
 

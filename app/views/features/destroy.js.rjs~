@@ -1,0 +1,1 @@
+page.replace_html("item_features", :partial => "/items/item_feature") 
