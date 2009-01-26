@@ -1,0 +1,18 @@
+digraph models_diagram {
+	graph[overlap=false, splines=true]
+	"Manufacturer" [shape=Mrecord, label="{Manufacturer|name :string\ldescription :text\lcreated_at :datetime\lupdated_at :datetime\l}"]
+	"Room" [shape=Mrecord, label="{Room|number :string\lcreated_at :datetime\lupdated_at :datetime\l}"]
+	"Item" [shape=Mrecord, label="{Item|barcode :integer\lcreated_at :datetime\lupdated_at :datetime\lpurchase_date :date\lwarranty_period :integer\l}"]
+	"Contact" [shape=Mrecord, label="{Contact|name :string\lemail :string\lphone :string\lcreated_at :datetime\lupdated_at :datetime\l}"]
+	"Feature" [shape=Mrecord, label="{Feature|information :string\lcreated_at :datetime\lupdated_at :datetime\lfeature_type :string\l}"]
+	"ModelName" [shape=Mrecord, label="{ModelName|name :string\ldescription :text\lcreated_at :datetime\lupdated_at :datetime\l}"]
+	"FeatureType" [shape=Mrecord, label="{FeatureType|name :string\ldescription :text\lcreated_at :datetime\lupdated_at :datetime\l}"]
+	"ItemType" [shape=Mrecord, label="{ItemType|name :string\lcreated_at :datetime\lupdated_at :datetime\l}"]
+	"Manufacturer" -> "Item" [arrowtail=crow, arrowhead=dot, dir=both]
+	"Manufacturer" -> "ModelName" [arrowtail=crow, arrowhead=dot, dir=both]
+	"Room" -> "Item" [arrowtail=crow, arrowhead=dot, dir=both]
+	"Item" -> "Feature" [arrowtail=crow, arrowhead=dot, dir=both]
+	"Contact" -> "Room" [arrowtail=crow, arrowhead=dot, dir=both]
+	"Feature" -> "FeatureType" [arrowtail=crow, arrowhead=dot, dir=both]
+	"ModelName" -> "Item" [arrowtail=crow, arrowhead=dot, dir=both]
+}

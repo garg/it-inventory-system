@@ -32,10 +32,14 @@
 
 <h4>Specs</h4>
 
-<div id='item_features'>
-  <%= render(:partial => "item_feature", :collection => @item.features) %>
-</div>
 
+
+
+
+
+<div id='item_features'>
+  <%= render(:partial => "item", :object => @item) %>
+</div>
 
 <%= link_to_remote("Add Feature", :update => 'add_feature_div', :url => {:action => :add_feature, :id=>@item.id}, :position => "after") %>
 

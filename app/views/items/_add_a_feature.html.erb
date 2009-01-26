@@ -2,7 +2,7 @@
 
 
 
-<% remote_form_for :feature, @feature, :url => { :action  => "createfeature"}, :complete => visual_effect(:highlight, 'item_features') do |f| %>
+<% remote_form_for :feature, @feature, :id => 'add_feature_form', :url => { :action  => "createfeature"}, :complete => visual_effect(:highlight, 'item_features') do |f| %>
   <%= f.error_messages %>
 
 

@@ -80,6 +80,7 @@ class ItemsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to(items_url) }
       format.xml  { head :ok }
+      format.js
     end
   end
   
@@ -103,6 +104,21 @@ class ItemsController < ApplicationController
     render :partial => "add_a_feature"
   end
   
+  
+  
+  def remove_from_features
+
+    feature = Feature.find(params[:id])
+    @item = feature.item
+    @current_feature = feature.destroy
+    respond_to do |format|
+      format.js if request.xhr?
+      format.html { redirect_to :action => 'show', :id => @item}
+
+    end
+
+  end
+  
 
   
   def createfeature
@@ -113,8 +129,10 @@ class ItemsController < ApplicationController
     respond_to do |format|
       format.js
     end
+    
+
 
   end
   
-  
+
 end

@@ -1,0 +1,20 @@
+<h1>Editing item_type</h1>
+
+<% form_for(@item_type) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :item_id %><br />
+    <%= f.text_field :item_id %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @item_type %> |
+<%= link_to 'Back', item_types_path %>
